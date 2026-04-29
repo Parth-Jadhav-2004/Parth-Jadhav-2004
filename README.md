@@ -109,15 +109,14 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   
-  <a href="[https://twitter.com/your-username](https://x.com/paarthjadhav)" target="_blank">
+  <a href="https://x.com/paarthjadhav" target="_blank">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
   
-  <a href="[https://instagram.com/your-username](https://www.instagram.com/thepaarthjadhav/)" target="_blank">
+  <a href="https://www.instagram.com/thepaarthjadhav/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
 </p>
-
 
 ## ✨ Fun Fact
 
