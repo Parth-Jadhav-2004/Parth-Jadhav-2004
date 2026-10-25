@@ -47,9 +47,3 @@
 ## Stack
 
 <img height="44" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, MySQL, Linux, PyTorch, FastAPI, C#, Rust, and Git" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git" />
-
-<div align="center">
-
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=Parth-Jadhav-2004&amp;label=Profile%20views&amp;color=24292f&amp;style=flat" />
-
-</div>
