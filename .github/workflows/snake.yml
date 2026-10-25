@@ -49,6 +49,7 @@ jobs:
           )
           light_path.write_text(combined)
           dark_path.unlink()
+          light_path.rename("dist/github-snake.svg")
           PY
 
       - name: push github-contribution-grid-snake.svg to the output branch
