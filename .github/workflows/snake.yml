@@ -23,6 +23,34 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: keep both themes in one svg
+        run: |
+          python3 - << 'PY'
+          from pathlib import Path
+
+          light_path = Path("dist/github-contribution-grid-snake.svg")
+          dark_path = Path("dist/github-contribution-grid-snake-dark.svg")
+          light = light_path.read_text()
+          dark = dark_path.read_text()
+
+          def root_block(text):
+              start = text.find(":root{")
+              end = text.find("}", start)
+              if start < 0 or end < 0:
+                  raise SystemExit("snake svg is missing a :root color block")
+              return text[start:end + 1]
+
+          light_root = root_block(light)
+          dark_root = root_block(dark)
+          combined = light.replace(
+              light_root,
+              light_root + "@media (prefers-color-scheme: dark){" + dark_root + "}",
+              1,
+          )
+          light_path.write_text(combined)
+          dark_path.unlink()
+          PY
+
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:

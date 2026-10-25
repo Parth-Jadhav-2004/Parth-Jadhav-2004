@@ -42,11 +42,7 @@
   <img height="165" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=Parth-Jadhav-2004&amp;hide_border=true&amp;background=FFFFFF&amp;stroke=EAECEF&amp;ring=24292F&amp;fire=24292F&amp;currStreakNum=24292F&amp;sideNums=24292F&amp;currStreakLabel=57606A&amp;sideLabels=57606A&amp;dates=6E7781" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Parth-Jadhav-2004/Parth-Jadhav-2004/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Parth-Jadhav-2004/Parth-Jadhav-2004/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/Parth-Jadhav-2004/Parth-Jadhav-2004/output/github-contribution-grid-snake.svg" />
-</picture>
+<img alt="Contribution grid snake animation" src="https://raw.githubusercontent.com/Parth-Jadhav-2004/Parth-Jadhav-2004/output/github-contribution-grid-snake.svg" />
 
 </div>
 
