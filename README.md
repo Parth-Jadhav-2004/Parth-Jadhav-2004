@@ -42,8 +42,6 @@
   <img height="165" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=Parth-Jadhav-2004&amp;hide_border=true&amp;background=FFFFFF&amp;stroke=EAECEF&amp;ring=24292F&amp;fire=24292F&amp;currStreakNum=24292F&amp;sideNums=24292F&amp;currStreakLabel=57606A&amp;sideLabels=57606A&amp;dates=6E7781" />
 </picture>
 
-<img height="142" alt="Contribution grid snake animation" src="https://cdn.jsdelivr.net/gh/Parth-Jadhav-2004/Parth-Jadhav-2004@output/contribution-snake.svg" />
-
 </div>
 
 ## Stack
