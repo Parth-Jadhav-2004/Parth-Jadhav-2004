@@ -2,7 +2,10 @@
 
 # Parth Jadhav
 
-Software Engineer - Building practical AI products and clean web experiences.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Segoe+UI&amp;size=20&amp;pause=1000&amp;color=8B949E&amp;center=true&amp;vCenter=true&amp;width=620&amp;height=36&amp;lines=Software+Engineer;Building+practical+AI+products;Clean+web+experiences" />
+  <img height="36" alt="Software Engineer. Building practical AI products. Clean web experiences." src="https://readme-typing-svg.demolab.com?font=Segoe+UI&amp;size=20&amp;pause=1000&amp;color=57606A&amp;center=true&amp;vCenter=true&amp;width=620&amp;height=36&amp;lines=Software+Engineer;Building+practical+AI+products;Clean+web+experiences" />
+</picture>
 
 <a href="https://www.parthjadhav.dev">
   <picture>
@@ -42,3 +45,9 @@ Software Engineer - Building practical AI products and clean web experiences.
 ## Stack
 
 <img height="48" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, MySQL, Linux, PyTorch, FastAPI, C#, Rust, and Git" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git" />
+
+<div align="center">
+
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=Parth-Jadhav-2004&amp;label=Profile%20views&amp;color=24292f&amp;style=flat" />
+
+</div>
