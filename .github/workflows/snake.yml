@@ -31,7 +31,7 @@ jobs:
 
           LIGHT = Path("dist/github-contribution-grid-snake.svg")
           DARK = Path("dist/github-contribution-grid-snake-dark.svg")
-          OUT = Path("dist/github-snake.svg")
+          OUT = Path("dist/contribution-snake.svg")
           SNAKE_MS = 16000
 
           def strip_keyframes(css: str, name_pattern: str) -> str:
