@@ -23,33 +23,99 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: keep both themes in one svg
+      - name: optimize snake svg for smooth playback
         run: |
           python3 - << 'PY'
+          import re
           from pathlib import Path
 
-          light_path = Path("dist/github-contribution-grid-snake.svg")
-          dark_path = Path("dist/github-contribution-grid-snake-dark.svg")
-          light = light_path.read_text()
-          dark = dark_path.read_text()
+          LIGHT = Path("dist/github-contribution-grid-snake.svg")
+          DARK = Path("dist/github-contribution-grid-snake-dark.svg")
+          OUT = Path("dist/github-snake.svg")
+          SNAKE_MS = 16000
 
-          def root_block(text):
+          def strip_keyframes(css: str, name_pattern: str) -> str:
+              out = []
+              i = 0
+              needle = "@keyframes "
+              while i < len(css):
+                  start = css.find(needle, i)
+                  if start == -1:
+                      out.append(css[i:])
+                      break
+                  name_start = start + len(needle)
+                  brace = css.find("{", name_start)
+                  if brace == -1:
+                      out.append(css[i:])
+                      break
+                  name = css[name_start:brace].strip()
+                  if not re.fullmatch(name_pattern, name):
+                      out.append(css[i : start + len(needle)])
+                      i = start + len(needle)
+                      continue
+                  out.append(css[i:start])
+                  j = brace + 1
+                  depth = 1
+                  while j < len(css) and depth:
+                      ch = css[j]
+                      if ch == "{":
+                          depth += 1
+                      elif ch == "}":
+                          depth -= 1
+                      j += 1
+                  i = j
+              return "".join(out)
+
+          def root_block(text: str) -> str:
               start = text.find(":root{")
               end = text.find("}", start)
               if start < 0 or end < 0:
                   raise SystemExit("snake svg is missing a :root color block")
-              return text[start:end + 1]
+              return text[start : end + 1]
 
+          def optimize_snake_svg(text: str) -> str:
+              style_start = text.find("<style>")
+              style_end = text.find("</style>")
+              if style_start < 0 or style_end < 0:
+                  raise SystemExit("snake svg is missing a style block")
+              head = text[: style_start + 7]
+              css = text[style_start + 7 : style_end]
+              tail = text[style_end:]
+
+              css = strip_keyframes(css, r"c[0-9a-f]+")
+              css = strip_keyframes(css, r"u[0-9]+")
+              css = re.sub(
+                  r"(\.c\.c[0-9a-f]+\{fill:var\(--c[0-9]+\));animation-name:c[0-9a-f]+;?\}",
+                  r"\1}",
+                  css,
+              )
+              css = re.sub(r"\.u\.u[0-9]+\{[^{}]*\}", "", css)
+              css = re.sub(
+                  r"(\.c\{shape-rendering:geometricPrecision;fill:var\(--ce\);stroke-width:1px;stroke:var\(--cb\);)animation:none \d+ms linear infinite;",
+                  r"\1",
+                  css,
+                  count=1,
+              )
+              css = re.sub(r"\.u\{[^{}]*\}", "", css)
+              css = re.sub(
+                  r"(\.s\{shape-rendering:geometricPrecision;fill:var\(--cs\);)animation:none linear \d+ms infinite",
+                  rf"\1animation:none linear {SNAKE_MS}ms infinite",
+                  css,
+                  count=1,
+              )
+              body = re.sub(r'class="c c[0-9a-f]+"', 'class="c"', tail)
+              body = re.sub(r'<rect class="u u\d+"[^/]*/>', "", body)
+              return head + css + body
+
+          light = optimize_snake_svg(LIGHT.read_text())
+          dark_root = root_block(DARK.read_text())
           light_root = root_block(light)
-          dark_root = root_block(dark)
           combined = light.replace(
               light_root,
               light_root + "@media (prefers-color-scheme: dark){" + dark_root + "}",
               1,
           )
-          light_path.write_text(combined)
-          dark_path.unlink()
-          light_path.rename("dist/github-snake.svg")
+          OUT.write_text(combined)
           PY
 
       - name: push github-contribution-grid-snake.svg to the output branch
