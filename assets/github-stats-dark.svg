@@ -1,36 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="370" viewBox="0 0 720 370" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="344" viewBox="0 0 840 344" role="img" aria-labelledby="title description" font-family="-apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif">
 <title id="title">Parth Jadhav · GitHub activity</title>
-<desc id="description">Contributions: 205, Current streak / days*: 2, Pull requests: 22, Public repositories: 36, Public repo stars: 2, Followers: 8. Updated 06 Nov 2026 · 15:36 UTC. Contributions, pull requests and streak cover the past year; streak uses UTC days.</desc>
-<rect x="0.5" y="0.5" width="719" height="369" rx="16" fill="#0d1117" stroke="#30363d"/>
-<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#f0f6fc">
-<text x="28" y="37" font-size="19" font-weight="600">GitHub activity</text>
-<text x="28" y="60" font-size="12" fill="#8b949e">A year of building, one contribution at a time.</text>
-<text x="28" y="108" font-size="29" font-weight="600">205</text>
-<text x="28" y="131" font-size="12" fill="#8b949e">Contributions</text>
-<text x="260" y="108" font-size="29" font-weight="600">2</text>
-<text x="260" y="131" font-size="12" fill="#8b949e">Current streak / days*</text>
-<text x="492" y="108" font-size="29" font-weight="600">22</text>
-<text x="492" y="131" font-size="12" fill="#8b949e">Pull requests</text>
-<text x="28" y="183" font-size="29" font-weight="600">36</text>
-<text x="28" y="206" font-size="12" fill="#8b949e">Public repositories</text>
-<text x="260" y="183" font-size="29" font-weight="600">2</text>
-<text x="260" y="206" font-size="12" fill="#8b949e">Public repo stars</text>
-<text x="492" y="183" font-size="29" font-weight="600">8</text>
-<text x="492" y="206" font-size="12" fill="#8b949e">Followers</text>
-<path d="M28 225H692" stroke="#30363d"/>
-<text x="28" y="249" font-size="12" fill="#8b949e">Contributions · last 12 weeks</text>
-<rect x="28" y="300" width="48" height="2" rx="3" fill="#a5d6ff"><title>0 contributions</title></rect>
-<rect x="84" y="300" width="48" height="2" rx="3" fill="#a5d6ff"><title>0 contributions</title></rect>
-<rect x="140" y="292" width="48" height="10" rx="3" fill="#a5d6ff"><title>12 contributions</title></rect>
-<rect x="196" y="296" width="48" height="6" rx="3" fill="#a5d6ff"><title>8 contributions</title></rect>
-<rect x="252" y="291" width="48" height="11" rx="3" fill="#a5d6ff"><title>14 contributions</title></rect>
-<rect x="308" y="300" width="48" height="2" rx="3" fill="#a5d6ff"><title>0 contributions</title></rect>
-<rect x="364" y="300" width="48" height="2" rx="3" fill="#a5d6ff"><title>0 contributions</title></rect>
-<rect x="420" y="299" width="48" height="3" rx="3" fill="#a5d6ff"><title>4 contributions</title></rect>
-<rect x="476" y="296" width="48" height="6" rx="3" fill="#a5d6ff"><title>7 contributions</title></rect>
-<rect x="532" y="282" width="48" height="20" rx="3" fill="#a5d6ff"><title>25 contributions</title></rect>
-<rect x="588" y="259" width="48" height="43" rx="3" fill="#a5d6ff"><title>53 contributions</title></rect>
-<rect x="644" y="292" width="48" height="10" rx="3" fill="#a5d6ff"><title>12 contributions</title></rect>
-<text x="28" y="329" font-size="11" fill="#8b949e">*Past-year window · UTC days · today may still be in progress</text>
-<text x="28" y="351" font-size="11" fill="#8b949e">Updated 06 Nov 2026 · 15:36 UTC · refresh requested every 6 hours</text>
+<desc id="description">GitHub activity for Parth-Jadhav-2004: 2 day current streak, 14 day longest streak, 205 contributions in the past year; 43 pull requests, 36 public repositories, 2 stars, 8 followers. Updated 06 Nov 2026 15:59 UTC. Streaks use UTC days within the past-year calendar; today may still be in progress.</desc>
+<rect x="0.5" y="0.5" width="839" height="343" rx="16" fill="#0d1117" stroke="#30363d"/>
+<g fill="#f0f6fc">
+<text x="32" y="48" font-size="20" font-weight="600">GitHub activity</text>
+<text x="32" y="68" font-size="13" fill="#8b949e">@Parth-Jadhav-2004 · past year</text>
+<g transform="translate(148, 150)">
+<circle r="44" fill="none" stroke="#30363d" stroke-width="8"/>
+<circle r="44" fill="none" stroke="#58a6ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="39.49 276.46" transform="rotate(-90)" opacity="1"/>
+<path d="M0 -30 C4 -23 9 -20 9 -15 A9 9 0 0 1 -9 -15 C-9 -20 -5 -23 0 -30Z" fill="#ff7b54"/>
+<text y="24" text-anchor="middle" font-size="36" font-weight="700">2</text>
+</g>
+<text x="148" y="222" text-anchor="middle" font-size="12" fill="#8b949e">Current streak · days</text>
+<path d="M280 100V210M570 100V210" stroke="#30363d"/>
+<text x="320" y="150" font-size="44" font-weight="700">14</text>
+<text x="320" y="180" font-size="12" fill="#8b949e">Longest streak · days (past year)</text>
+<text x="610" y="150" font-size="44" font-weight="700">205</text>
+<text x="610" y="180" font-size="12" fill="#8b949e">Contributions · past year</text>
+<text x="32" y="262" font-size="22" font-weight="700">43</text>
+<text x="32" y="282" font-size="12" fill="#8b949e">Pull requests</text>
+<text x="232" y="262" font-size="22" font-weight="700">36</text>
+<text x="232" y="282" font-size="12" fill="#8b949e">Public repos</text>
+<text x="432" y="262" font-size="22" font-weight="700">2</text>
+<text x="432" y="282" font-size="12" fill="#8b949e">Stars</text>
+<text x="632" y="262" font-size="22" font-weight="700">8</text>
+<text x="632" y="282" font-size="12" fill="#8b949e">Followers</text>
+<path d="M32 296H808" stroke="#30363d"/>
+<text x="32" y="325" font-size="11" fill="#8b949e">Updated 06 Nov 2026 15:59 UTC</text>
 </g></svg>

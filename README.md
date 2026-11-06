@@ -42,18 +42,33 @@ Clean web experiences. Useful tools. Always learning by building.
 **AI & backend** · Python, PyTorch, FastAPI, MySQL<br>
 **Systems & tools** · C#, Rust, Linux, Git
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git&amp;perline=7&amp;theme=dark" />
-  <img width="336" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, MySQL, Linux, PyTorch, FastAPI, C#, Rust, and Git" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git&amp;perline=7&amp;theme=light" />
-</picture>
+<p>
+  <img height="40" alt="TypeScript" src="https://skillicons.dev/icons?i=ts" />
+  <img height="40" alt="JavaScript" src="https://skillicons.dev/icons?i=js" />
+  <img height="40" alt="React" src="https://skillicons.dev/icons?i=react" />
+  <img height="40" alt="Next.js" src="https://skillicons.dev/icons?i=nextjs" />
+  <img height="40" alt="Node.js" src="https://skillicons.dev/icons?i=nodejs" />
+  <img height="40" alt="Python" src="https://skillicons.dev/icons?i=py" />
+  <img height="40" alt="PyTorch" src="https://skillicons.dev/icons?i=pytorch" />
+  <img height="40" alt="FastAPI" src="https://skillicons.dev/icons?i=fastapi" />
+  <img height="40" alt="MySQL" src="https://skillicons.dev/icons?i=mysql" />
+  <img height="40" alt="C#" src="https://skillicons.dev/icons?i=cs" />
+  <img height="40" alt="Rust" src="https://skillicons.dev/icons?i=rust" />
+  <img height="40" alt="Linux" src="https://skillicons.dev/icons?i=linux" />
+  <img height="40" alt="Git" src="https://skillicons.dev/icons?i=git" />
+</p>
 
 ## In the open
 
-<a href="https://github.com/Parth-Jadhav-2004?tab=repositories">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg?v=a226b37656b6" />
-    <img width="720" alt="GitHub activity: contributions, current streak, pull requests, public repositories, stars, followers, and a 12-week contribution chart" src="assets/github-stats-light.svg?v=a226b37656b6" />
-  </picture>
-</a>
+<p align="center">
+  <a href="https://github.com/Parth-Jadhav-2004?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg?v=24ab6d34fca7" />
+      <img width="840" alt="GitHub activity: current streak, longest streak, contributions, pull requests, public repositories, stars and followers" src="assets/github-stats-light.svg?v=24ab6d34fca7" />
+    </picture>
+  </a>
+</p>
 
+<p align="center">
 <sub>Generated from GitHub data every six hours, not on each profile visit. Past-year activity; UTC streak. <a href="docs/profile-stats.md">How stats refresh</a> · <a href="https://github.com/Parth-Jadhav-2004/Parth-Jadhav-2004/actions/workflows/profile-stats.yml">Refresh status</a></sub>
+</p>
