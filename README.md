@@ -2,12 +2,9 @@
 
 # Parth Jadhav
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Segoe+UI&amp;size=20&amp;pause=1000&amp;color=8B949E&amp;center=true&amp;vCenter=true&amp;width=440&amp;height=36&amp;lines=Software+Engineer;Building+practical+AI+products;Clean+web+experiences" />
-    <img height="36" alt="Software Engineer. Building practical AI products. Clean web experiences." src="https://readme-typing-svg.demolab.com?font=Segoe+UI&amp;size=20&amp;pause=1000&amp;color=57606A&amp;center=true&amp;vCenter=true&amp;width=440&amp;height=36&amp;lines=Software+Engineer;Building+practical+AI+products;Clean+web+experiences" />
-  </picture>
-</p>
+**Software engineer building practical AI products.**
+
+Clean web experiences. Useful tools. Always learning by building.
 
 <p align="center">
   <a href="https://www.parthjadhav.dev">
@@ -37,13 +34,26 @@
   </a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Parth-Jadhav-2004&amp;hide_border=true&amp;background=0D1117&amp;stroke=21262D&amp;ring=C9D1D9&amp;fire=C9D1D9&amp;currStreakNum=F0F6FC&amp;sideNums=F0F6FC&amp;currStreakLabel=8B949E&amp;sideLabels=8B949E&amp;dates=6E7681" />
-  <img height="165" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=Parth-Jadhav-2004&amp;hide_border=true&amp;background=FFFFFF&amp;stroke=EAECEF&amp;ring=24292F&amp;fire=24292F&amp;currStreakNum=24292F&amp;sideNums=24292F&amp;currStreakLabel=57606A&amp;sideLabels=57606A&amp;dates=6E7781" />
-</picture>
-
 </div>
 
-## Stack
+## What I work with
 
-<img height="44" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, MySQL, Linux, PyTorch, FastAPI, C#, Rust, and Git" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git" />
+**Web** · TypeScript, JavaScript, React, Next.js, Node.js<br>
+**AI & backend** · Python, PyTorch, FastAPI, MySQL<br>
+**Systems & tools** · C#, Rust, Linux, Git
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git&amp;perline=7&amp;theme=dark" />
+  <img width="336" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, MySQL, Linux, PyTorch, FastAPI, C#, Rust, and Git" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,mysql,linux,pytorch,fastapi,cs,rust,git&amp;perline=7&amp;theme=light" />
+</picture>
+
+## In the open
+
+<a href="https://github.com/Parth-Jadhav-2004?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg?v=a253e172933f" />
+    <img width="720" alt="GitHub activity: contributions, current streak, pull requests, public repositories, stars, followers, and a 12-week contribution chart" src="assets/github-stats-light.svg?v=a253e172933f" />
+  </picture>
+</a>
+
+<sub>Generated from GitHub data every six hours, not on each profile visit. Past-year activity; UTC streak. <a href="docs/profile-stats.md">How stats refresh</a> · <a href="https://github.com/Parth-Jadhav-2004/Parth-Jadhav-2004/actions/workflows/profile-stats.yml">Refresh status</a></sub>
