@@ -63,8 +63,8 @@ Clean web experiences. Useful tools. Always learning by building.
 <p align="center">
   <a href="https://github.com/Parth-Jadhav-2004?tab=repositories">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg?v=52d382cb61c8" />
-      <img width="840" alt="GitHub activity: current streak, longest streak, contributions, pull requests, public repositories, stars and followers" src="assets/github-stats-light.svg?v=52d382cb61c8" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/github-stats-dark.svg?v=4d568d75ebcc" />
+      <img width="840" alt="GitHub activity: current streak, longest streak, contributions, pull requests, public repositories, stars and followers" src="assets/github-stats-light.svg?v=4d568d75ebcc" />
     </picture>
   </a>
 </p>
